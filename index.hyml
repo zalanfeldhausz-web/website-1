@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 60px 20px;
+    }
+    h1 { color: #222; }
+    p { color: #666; }
+    .product {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 350px;
+      margin: 30px auto;
+    }
+    button {
+      background: #222;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Store</h1>
+  <p>Simple products. Great prices.</p>
+
+  <div class="product">
+    <h2>USB-C Braided Cable</h2>
+    <p>Durable braided charging cable.</p>
+    <h2>€6.99</h2>
+    <button onclick="alert('Product details coming soon!')">
+      View Product
+    </button>
+  </div>
+</body>
+</html>
